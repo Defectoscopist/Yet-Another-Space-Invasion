@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8580872112561790515}
   - component: {fileID: 1399163628410923677}
   - component: {fileID: 1066929987472888302}
+  - component: {fileID: 3353879827646794509}
   m_Layer: 9
   m_Name: Enemy_1
   m_TagString: Enemy
@@ -110,6 +111,29 @@ MonoBehaviour:
   waveFrequency: 2
   waveWidth: 4
   waveRotY: 45
+--- !u!136 &3353879827646794509
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282576159073338827}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Height: 1
+  m_Direction: 0
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1507199968425020165
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +145,6 @@ GameObject:
   - component: {fileID: 2049259316022719014}
   - component: {fileID: 5884463038016707303}
   - component: {fileID: 3277012218910568011}
-  - component: {fileID: 3426907024124483388}
   - component: {fileID: 6121635797181067953}
   m_Layer: 9
   m_Name: Wing
@@ -195,27 +218,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &3426907024124483388
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507199968425020165}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &6121635797181067953
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -254,7 +256,6 @@ GameObject:
   - component: {fileID: 4092839963684614993}
   - component: {fileID: 4549338815245828638}
   - component: {fileID: 5804072595619282749}
-  - component: {fileID: 7819857126837782044}
   - component: {fileID: 3381682908994153159}
   m_Layer: 9
   m_Name: Cockpit
@@ -328,27 +329,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &7819857126837782044
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4342550163846442435}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &3381682908994153159
 Rigidbody:
   m_ObjectHideFlags: 0
